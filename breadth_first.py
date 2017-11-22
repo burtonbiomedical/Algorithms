@@ -1,6 +1,4 @@
-#Breadth-first search algorithms are used for finding if a path exists, and the shortest
-#possible path in an unweighted graph. The function below is an implementation
-#of breadth-first search in python
+
 import collections
 
 def search(start_point, query_function, graph):

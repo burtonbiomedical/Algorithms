@@ -1,8 +1,4 @@
-#Dijkstra's (pronounced deyek-stra) algorithm is for finding the shortest possible
-#path in weighted directed acyclic graphs. NOTE Dijkstra's algorithm does not work
-#on graphs with negative weighted edges. See the Bellman-ford algorithm
-
-class Dijkstra(object):
+class Dijkstra:
     def __init__(self, graph):
         """Initialise Dijkstra search.
         Params:
